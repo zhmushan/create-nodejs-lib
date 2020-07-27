@@ -11,5 +11,5 @@
 ## Usage
 
 ```sh
-npm init zhmushan/nodejs-lib
+npm init zhmushan/nodejs-lib my-lib
 ```
