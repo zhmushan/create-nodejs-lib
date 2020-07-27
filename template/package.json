@@ -1,0 +1,21 @@
+{
+  "name": "placeholder",
+  "private": true,
+  "license": "MIT",
+  "module": "dist/mod.js",
+  "types": "dist/mod.d.js",
+  "main": "dist/cjs/mod.js",
+  "scripts": {
+    "build": "run-s clean && run-p build:*",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "check": "run-p fmt_check lint test",
+    "clean": "rimraf dist",
+    "fmt": "npm run fmt_check -- --write",
+    "fmt_check": "prettier --check \"**/*.{md,json,js,ts,jsx,tsx}\"",
+    "lint": "eslint --ext js,ts,jsx,tsx",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,15 @@
+[
+  "@types/jest",
+  "@types/node",
+  "@typescript-eslint/eslint-plugin",
+  "@typescript-eslint/parser",
+  "eslint",
+  "eslint-config-prettier",
+  "jest",
+  "npm-run-all",
+  "prettier",
+  "rimraf",
+  "ts-jest",
+  "ts-node",
+  "typescript"
+]
